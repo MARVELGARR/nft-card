@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/favicon-32x32.png" type="image/x-icon">
+    <title>NFT PREVIEW CARD</title>
+</head>
+<body class="flex justify-center items-center h-screen font-press-start bg-slate-900 shadow-lg">
+    <div class="card bg-slate-800 flex flex-col gap-3 p-4 rounded-xl ">
+        <div class="image relative ">
+            <img class="w-56 rounded-xl cursor-pointer hover:bg-emerald-300 hover:opacity-70" src="./image/image-equilibrium.jpg" alt="">
+            <div class="svg justify-center hover:flex hover:opacity-50 opacity-0 hover:items-center w-full h-full absolute bottom-0 rounded-md   z-50  bg-teal-700">
+                <svg class="top-20 right-20" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+            </div>
+        </div>
+        <div class="content flex flex-col gap-2">
+            <div class="title font-bold text-teal-50 cursor-pointer hover:text-cyan-300">
+                Equilibrum #3429
+            </div>
+            <p class="text-slate-50 text-xs ">Our Equilibrium collection promotes<br>balance and calm</p>
+            <div class="Eth-count-container flex justify-between mt-1 mb-1">
+                <div class="Eth-count flex items-center gap-1">
+                    <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+                    <div class="count text-cyan-300 font-medium">0.041ETH</div>
+                </div>
+                <div class="days-left flex items-center gap-1">
+                    <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+                    <div class="days text-violet-300">
+                        3 days left
+                    </div>
+                </div>
+            </div>
+            <hr class="">
+            <div class="profile flex gap-2 items-center">
+                <div class="profile-pic">
+                    <img class="w-7 border-zinc-200 border-2 rounded-full" src="./image/image-avatar.png" alt="">
+
+                </div>
+                <div class="profile-names flex gap-2">
+                    <span class="text-gray-400 text-sm">Creation of</span>
+                    <div class="name text-slate-50 text-sm cursor-pointer hover:text-cyan-300">Jules Wyvern</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
